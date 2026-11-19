@@ -1,0 +1,8 @@
+LA CIUDAD QUE DORMÍA — GITHUB PAGES
+
+1. Descomprimí este ZIP.
+2. Subí index.html y la carpeta imagenes completa a la raíz de un repositorio de GitHub.
+3. En Settings > Pages, elegí Deploy from a branch, rama main, carpeta /(root), y guardá.
+4. Esperá la publicación y abrí el enlace de GitHub Pages.
+
+El juego funciona sin React y sin instalar nada. VERA funciona inicialmente en modo demostración. Para conectarla con Gemini, configurá un Cloudflare Worker y colocá su URL en la constante VERA_API_URL del index.html. Nunca publiques tu clave API en GitHub.
